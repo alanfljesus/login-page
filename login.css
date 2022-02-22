@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous family=Sarala:wght@400;700&display=swap');
+
+* {
+    text-decoration: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 15px auto auto auto;
+    width: 350px;
+    text-align: center;
+}
+
+.fora {
+    padding: 180px 50px 90px 50px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    border: none;
+    background-color: #ffffff;
+
+    background: linear-gradient(68.15deg, #5e44f3 16.62%, #44b3f3 85.61%);
+}
+
+.login {
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.28);
+    background: linear-gradient(68.15deg, #ffffffd3 16.62%, #ffffff 85.61%);
+    border: none;
+    width: 255px;
+    height: 435px;
+}
+
+.login-title {
+    padding-top: 70px;
+    font-size: 26px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+}
+
+#login2 {
+    border: none;
+    border-radius: 20px;
+    background-color: #dbdbdb;
+    padding: 7px;
+    text-align: center;
+    font-family: 'Sarala';
+    outline: 1px solid #a1a1a1;
+}
+
+.login3 {
+    background-image: url(../img/user-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 2px;
+    background-position-x: 8px;
+}
+
+#login2:hover {
+    background-color: #cccbcb;
+    box-shadow: none;
+}
+
+#password2 {
+    border: none;
+    border-radius: 20px;
+    background-color: #dbdbdb;
+    padding: 7px;
+    text-align: center;
+    font-family: 'Sarala';
+    outline: 1px solid #a1a1a1;
+}
+
+#password2:hover {
+    background-color: #cccbcb;
+}
+
+.password3 {
+    background-image: url(../img/padlock-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 2px;
+    background-position-x: 8px;
+}
+
+
+.facebook1 {
+    border: none;
+
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+}
+
+#facebook2 {
+    border-radius: 20px;
+    margin: auto;
+    height: 30px;
+}
+
+#login-button2 {
+    border-radius: 20px;
+    margin: auto;
+    height: 30px;
+}
+
+.forget-password {
+    position: relative;
+    bottom: 20px;
+    padding-left: 85px;
+    font-size: 10px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    color: #0000FF;
+}
+
+.no-account {
+    font-size: 10px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    color: #0000FF;
+}
